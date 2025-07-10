@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: radial-gradient(circle, #ffffff 0%, #00c8ff 35%, #1e9dc0 80%);
+    background-repeat: repeat;
+
+}
+
+.secondbody{
+background:#ffffff !important;
+
+}
+
+.title{
+    color:#FFFFFF;
+    font-family:'kavoon';
+
+}
+
+.wrapper-decision {
+    background-color: rgba(88, 125, 189, 0.5);
+    width: 650px;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 200px;
+    padding-top:1.5em;
+    border-radius:30px;
+
+}
+
+.wrapper{
+    width:400px;
+    height: 450px;
+    background-color:rgba(88, 125, 189, 0.5) ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:1.5em;
+    border-radius:30px;
+}
+
+/* CSS Untuk background boxes */
+.bg-container {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0 0 85px 0;
+    width: 1440px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bg-box {
+    opacity: 0.8;
+    box-shadow: 8px 8px 8px 0px #DCDCDC;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 259px;
+    height: 197px;
+}
+
+.bg-box.bg-box-1 {
+    background-color: #C2FAFF;
+}
+
+.bg-box.bg-box-2 {
+    background-color: #00C950;
+}
+
+/* Penyesuaian posisi */
+.bg-box.absolute {
+    position: absolute;
+}
+
+.bg-box.left {
+    left: 245px;
+}
+
+.bg-box.right {
+    right: 246px;
+}
+
+.bg-box.top {
+    top: 185px;
+}
+
+.bg-box.bottom {
+    bottom: 341px;
+}
+
+.bg-box.translate-x {
+    transform: translateX(-50%);
+}
+
+.bg-Woman {
+    background-image: url('Woman.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-writing_1 {
+    background-image: url("{{asset('assets/images/writing_1.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-coin {
+    background-image: url("{{asset('assets/images/coin.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-writing {
+    background-image: url("{{asset('assets/images/writing.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-speaker {
+    background-image: url("{{asset('assets/images/speaker.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-ktp {
+    background-image: url("{{asset('assets/images/ktp_hilang_atau_ingin_ubah_data_akan_dirujuk_buat_ktp_digital_removebg_preview_3.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-news {
+    background-image: url("{{asset('assets/images/news.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

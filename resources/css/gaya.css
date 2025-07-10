@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(135deg, #00EFF0 100%, #FFFFFF 100%, #3EC2EC 50%);
+
+}
+
+.title{
+    color:#FFFFFF;
+    font-family:'kavoon';
+
+}
+
+.wrapper-decision {
+    background-color: rgba(88, 125, 189, 0.5);
+    width: 650px;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 200px;
+    padding-top:1.5em;
+
+}
+
+.wrapper{
+    width:400px;
+    height: 450px;
+    background-color:rgba(88, 125, 189, 0.5) ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:1.5em;
+}
+

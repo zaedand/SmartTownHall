@@ -1,0 +1,692 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: linear-gradient(to top, #FFFFFF 0%, #00EFFF 56%, #3EC2EC 100%);
+    background-repeat: no-repeat;
+
+}
+
+.secondbody{
+background:#ffffff !important;
+
+}
+
+.title{
+    color:#FFFFFF;
+    font-family:'kavoon';
+
+}
+
+.wrapper-decision {
+    background-color: rgba(88, 125, 189, 0.5);
+    width: 650px;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 200px;
+    padding-top:1.5em;
+    border-radius:1%;
+
+}
+
+.wrapper{
+    width:400px;
+    height: 450px;
+    background-color:rgba(88, 125, 189, 0.5) ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:1.5em;
+    border-radius:1%;
+}
+
+/* CSS Untuk background boxes */
+.bg-container {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0 0 85px 0;
+    width: 1440px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bg-box {
+    opacity: 0.8;
+    box-shadow: 8px 8px 8px 0px #DCDCDC;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 259px;
+    height: 197px;
+}
+
+.bg-box.bg-box-1 {
+    background-color: #C2FAFF;
+}
+
+.bg-box.bg-box-2 {
+    background-color: #00C950;
+}
+
+/* Penyesuaian posisi */
+.bg-box.absolute {
+    position: absolute;
+}
+
+.bg-box.left {
+    left: 245px;
+}
+
+.bg-box.right {
+    right: 246px;
+}
+
+.bg-box.top {
+    top: 185px;
+}
+
+.bg-box.bottom {
+    bottom: 341px;
+}
+
+.bg-box.translate-x {
+    transform: translateX(-50%);
+}
+
+.bg-Woman {
+    background-image: url('Woman.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-writing_1 {
+    background-image: url("{{asset('assets/images/writing_1.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-coin {
+    background-image: url("{{asset('assets/images/coin.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-writing {
+    background-image: url("{{asset('assets/images/writing.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-speaker {
+    background-image: url("{{asset('assets/images/speaker.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-ktp {
+    background-image: url("{{asset('assets/images/ktp_hilang_atau_ingin_ubah_data_akan_dirujuk_buat_ktp_digital_removebg_preview_3.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-news {
+    background-image: url("{{asset('assets/images/news.png')}}");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+
+}
+
+
+
+/*  end of carosel */
+
+body{
+    background: linear-gradient(to top, #FFFFFF 0%, #00EFFF 56%, #3EC2EC 100%);
+    background-repeat: no-repeat;
+
+
+}
+
+.secondbody{
+background:#ffffff !important;
+
+}
+
+.title{
+    color:#FFFFFF;
+    font-family:'kavoon';
+
+}
+
+.wrapper-decision {
+    background-color: rgba(88, 125, 189, 0.5);
+    width: 650px;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 200px;
+    padding-top:1.5em;
+    border-radius:20px;
+
+}
+
+.wrapper{
+    width:400px;
+    height: 450px;
+    background-color:rgba(88, 125, 189, 0.5) ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:1.5em;
+    border-radius:20px;
+}
+
+.row{
+
+    margin-top:1.3em;
+}
+
+
+/* slider start*/
+
+.bodi{
+    background: #ffffff;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+.item{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    text-align: justify;
+    background-color: #57D1C9;
+    box-shadow: gray;
+    border: grey;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(50% - 110px);
+    top: 0;
+}
+
+#next, #prev{
+    position: absolute;
+    top: 40%;
+    color: #00cafd;
+    background-color: rgba(254, 255, 254, 0.5);
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 400px;
+}
+#next{
+    left: unset;
+    right: 400px;
+}
+
+.form-control, .form-select{
+
+    background-color: #ffffffd3;
+}
+
+.btn .btn-success{
+background-color:#00C950;
+}
+
+.btn-outline-success{
+    visibility: hidden;
+}
+
+.me-2{
+
+    visibility: hidden;
+}
+
+.judul{
+   text-align:justify;
+   align-content:center;
+}
+
+
+td{
+    align-content:center;
+}
+
+
+/* //home */
+
+.mx-auto {
+    width: 800px
+}
+
+/* styles.css */
+.banner {
+    background: url("https://www.blibli.com/friends-backend/wp-content/uploads/2023/02/B200343-Cover-Apa-Perbedaan-antara-Zakat-Fitrah-dan-Zakat-Mal.jpg") no-repeat center center;
+    background-size: 100vw auto;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    width: 100%;
+  }
+
+
+  .crop-img {
+    object-fit: cover;
+  }
+
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #303234;
+  }
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+
+.insta{
+    background-color:red;
+}
+.whatsapp{
+    background-color:green;
+}
+
+.container{
+
+
+}
+
+.image{
+width:250px;
+margin:0 auto;
+}
+
+.card-kalkulator {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    max-width: 600px; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 0 auto; /* Untuk memusatkan card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan card */
+  }
+
+  .btn {
+    font-family: 'comic sans ms';
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .card-header {
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: 'comic sans ms';
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+.client img {
+    height: auto;
+    max-height: 50px;
+  }
+
+  .kontak {
+    background: url("https://wallpaperaccess.com/full/527691.png") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  /* <!--style--> */
+  * {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+/* Tata letak dasar */
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+/* Setiap bagian footer */
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* Responsif: Ubah lebar bagian footer pada layar kecil */
+@media screen and (max-width: 768px) {
+    .footer-section {
+        width: 50%; /* Atau ukuran lain yang Anda inginkan */
+    }
+}
+
+/* Responsif: Tata letak ulang footer untuk layar yang lebih kecil */
+@media screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column; /* Tata letak vertikal */
+    }
+
+    .footer-section {
+        width: 100%; /* Bagian footer memenuhi lebar */
+    }
+}
+
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+
+/* nonhome */
+
+.mx-auto {
+    width: 800px
+}
+
+
+.card-img-top-home{
+    width: 100%; /* Menggunakan 100% untuk membuat gambar responsif */
+    height: auto; /* Menyesuaikan tinggi agar gambar tidak terdistorsi */
+    max-width: 48em; /* Maksimum lebar gambar agar tidak terlalu melebar */
+    max-height: 27em
+}
+
+.card{
+    size-adjust: auto;
+    max-width:75%;
+}
+
+hr{
+    color:black;
+    width:48em;
+}
+
+.card-title-dancing{
+    font-family: 'Dancing Script', cursive;
+    font-weight:bold;
+    text-decoration:solid;
+    font-size:3em;
+}
+
+.card-title-blackops{
+    font-family: 'Black Ops One', cursive;
+    font-weight:bold;
+    text-decoration:solid;
+    font-size:3em;
+}
+
+.hasil {
+    font-weight: bold;
+    color:#de1212
+}
+
+.hasil::before {
+    content: "Rp. ";
+}
+
+
+.card-title-russo{
+    font-family: 'Russo One', cursive;
+    font-weight:bold;
+    text-decoration:solid;
+    font-size:1.4em;
+}
+
+.btn-title{
+    font-family: 'Press Start 2P', cursive;
+    font-weight:light;
+    font-size:12px;
+}
+
+.card-title-fjala{
+    font-family:'Fjalla One',cursive;
+    font-weight:bolder;
+    font-size:1.4em;
+}
+
+.cursive{
+    font-family:cursive;
+}
+
+
+/* CSS */
+.card-custom {
+    max-width: 400px; /* Atur lebar maksimum sesuai kebutuhan */
+    margin: 0 auto;   /* Memusatkan card di tengah */
+}
+
+/* Mengatur lebar card di tampilan besar (large) */
+@media (min-width: 992px) {
+    .card-custom {
+        max-width: 600px; /* Atur lebar maksimum sesuai kebutuhan untuk tampilan besar */
+    }
+}
+
+/* Mengatur lebar card di tampilan ekstra besar (extra large) */
+@media (min-width: 1200px) {
+    .card-custom {
+        max-width: 800px; /* Atur lebar maksimum sesuai kebutuhan untuk tampilan ekstra besar */
+    }
+}
+
+
+
